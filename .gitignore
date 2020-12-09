@@ -1,0 +1,7 @@
+# Build result
+public/*.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+node_modules/
