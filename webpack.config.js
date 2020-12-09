@@ -13,6 +13,7 @@ module.exports = {
     ],
   },
   output: {
+    publicPath: "public", //  allows dev-server to live reload (no  build required)
     filename: "bundle.js",
     path: path.resolve(__dirname, "public"), //  __dirname - current file location
   },
