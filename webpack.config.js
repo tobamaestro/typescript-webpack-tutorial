@@ -12,6 +12,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: [".ts", ".js"], // to properly resolve .ts on import
+  },
   output: {
     publicPath: "public", //  allows dev-server to live reload (no  build required)
     filename: "bundle.js",
