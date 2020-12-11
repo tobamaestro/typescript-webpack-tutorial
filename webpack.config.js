@@ -2,6 +2,7 @@
 const path = require("path");
 
 module.exports = {
+  mode: "development",
   devtool: "eval-source-map", //  source-maps for prod
   entry: "./src/index.ts",
   module: {
