@@ -7,3 +7,7 @@ form.addEventListener('submit', (e) => {
     const data = formData(form);
     console.log(data);
 });
+
+//  Uncomment to check out TS debug with Webpack in action
+// const person: any = {};
+// console.log(person.speak());
