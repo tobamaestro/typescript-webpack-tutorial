@@ -1,9 +1,14 @@
 How it works:
 
-`Write TypeScript code in /src`
+1) `Write TypeScript code in /src`
 
-`Webpack takes .ts files and compiles them into a single JS bundle in /public`
+2) `Webpack takes .ts files and compiles them into a single JS bundle`
 
-How it does that -> webpack.config.js
+    How it knows to do that? -> webpack.config.js
 
-`index.html loads the JS bundle`
+3) `index.html loads the JS bundle`
+
+How to run:
+
+        npm run build
+        npm run serve
